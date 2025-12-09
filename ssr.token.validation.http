@@ -1,0 +1,8 @@
+@angular_ssr_host = http://localhost:4200/
+
+GET {{angular_ssr_host}}
+x-auth-token: eyJ1c2VySWQiOiIxMjMiLCJuYW1lIjoiQWJkdWwifTo6ZGV2LXNlY3JldC1rZXk=
+
+###
+GET {{angular_ssr_host}}
+x-auth-token: 123123123
